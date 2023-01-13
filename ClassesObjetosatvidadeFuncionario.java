@@ -46,5 +46,14 @@ public class ClassesObjetosatvidadeFuncionario extends While {
 	public void setMatricula(int matricula) {
 		this.matricula = matricula;
 	}
+	@Override
+	public String toString() {
+		return "ClassesObjetosatvidadeFuncionario [priNome=" + priNome + ", segNome=" + segNome + ", sexo=" + sexo
+				+ ", idade=" + idade + ", matricula=" + matricula + ", getPriNome()=" + getPriNome() + ", getSegNome()="
+				+ getSegNome() + ", getSexo()=" + getSexo() + ", getIdade()=" + getIdade() + ", getMatricula()="
+				+ getMatricula() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
+
 	
 }
